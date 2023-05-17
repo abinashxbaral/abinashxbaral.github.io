@@ -26395,7 +26395,7 @@ m=A.fA(n.h(o,"userLoginId"))
 l=A.cq(n.h(o,"adminJwtToken"))
 o=t.N
 s=4
-return A.S(A.aqM(A.hy("http://3.7.231.166:1337/content-manager/collection-types/plugin::users-permissions.user?page=1&pageSize=10&sort=username:ASC&filters[created_by_id][$eq]="+A.h(m),0,null),A.Z(["Authorization","Bearer "+A.h(l)],o,o)),$async$YS)
+return A.S(A.aqM(A.hy("https://admin.admondtamang.com.np/content-manager/collection-types/plugin::users-permissions.user?page=1&pageSize=10&sort=username:ASC&filters[created_by_id][$eq]="+A.h(m),0,null),A.Z(["Authorization","Bearer "+A.h(l)],o,o)),$async$YS)
 case 4:p=b
 q=A.aHo(B.az.p7(0,A.YQ(J.aJ(A.YB(p.e).c.a,"charset")).de(0,p.w),null))
 s=1
@@ -26412,7 +26412,7 @@ m=A.cq(n.h(o,"adminJwtToken"))
 A.fA(n.h(o,"userLoginId"))
 o=t.N
 s=4
-return A.S(A.aqM(A.hy("http://3.7.231.166:1337/content-manager/collection-types/plugin::users-permissions.user/"+a,0,null),A.Z(["Authorization","Bearer "+A.h(m)],o,o)),$async$Gu)
+return A.S(A.aqM(A.hy("https://admin.admondtamang.com.np/content-manager/collection-types/plugin::users-permissions.user/"+a,0,null),A.Z(["Authorization","Bearer "+A.h(m)],o,o)),$async$Gu)
 case 4:p=c
 q=A.aLm(B.az.p7(0,A.YQ(J.aJ(A.YB(p.e).c.a,"charset")).de(0,p.w),null))
 s=1
@@ -26422,7 +26422,7 @@ return A.Q($async$Gu,r)},
 aqO(){var s=0,r=A.R(t.jS),q,p
 var $async$aqO=A.N(function(a,b){if(a===1)return A.O(b,r)
 while(true)switch(s){case 0:s=3
-return A.S(A.aqM(A.hy("http://3.7.231.166:1337/api/hostels?populate[0]=Featured_image&pagination[pageSize]=10",0,null),null),$async$aqO)
+return A.S(A.aqM(A.hy("https://admin.admondtamang.com.np/api/hostels?populate[0]=Featured_image&pagination[pageSize]=10",0,null),null),$async$aqO)
 case 3:p=b
 q=A.aIY(B.az.p7(0,A.YQ(J.aJ(A.YB(p.e).c.a,"charset")).de(0,p.w),null))
 s=1
@@ -45290,7 +45290,7 @@ $S:257}
 A.aj8.prototype={
 $2(a,b){var s=null,r=this.a.b.a,q=B.f.k(r[b].a),p=A.bY(12)
 r=r[b]
-return A.kX(!1,s,!0,A.bO(s,A.c5(A.a([A.awt(s,new A.l8("http://3.7.231.166:1337"+r.ay.Q),s,20),B.aR,A.b5(r.y,s,s,s,s,$.kr(),s,s),B.aR,A.b5(r.w,s,s,s,s,$.avM(),s,s)],t.p),B.v,B.q,B.n),B.m,s,s,new A.bt(B.av,s,s,p,s,s,B.C),s,s,s,B.CG,s,s,s),s,!0,s,s,s,s,s,s,s,s,s,new A.aj7(a,q),s,s,s,s,s)},
+return A.kX(!1,s,!0,A.bO(s,A.c5(A.a([A.awt(s,new A.l8("https://admin.admondtamang.com.np"+r.ay.Q),s,20),B.aR,A.b5(r.y,s,s,s,s,$.kr(),s,s),B.aR,A.b5(r.w,s,s,s,s,$.avM(),s,s)],t.p),B.v,B.q,B.n),B.m,s,s,new A.bt(B.av,s,s,p,s,s,B.C),s,s,s,B.CG,s,s,s),s,!0,s,s,s,s,s,s,s,s,s,new A.aj7(a,q),s,s,s,s,s)},
 $S:141}
 A.aj7.prototype={
 $0(){var s=A.jL(new A.aj6(this.b),null,t.z)
@@ -45315,7 +45315,7 @@ q=t.w
 p=A.bg(a,i,q).w
 o=A.bY(6)
 n=t.p
-m=A.c5(A.a([A.Ig(A.bY(12),A.at_(new A.l8("http://3.7.231.166:1337"+h.ay.Q),80))],n),B.af,B.q,B.n)
+m=A.c5(A.a([A.Ig(A.bY(12),A.at_(new A.l8("https://admin.admondtamang.com.np"+h.ay.Q),80))],n),B.af,B.q,B.n)
 l=A.b5(h.y,i,i,i,i,$.aFn(),i,i)
 k=$.kr()
 k=A.c5(A.a([l,B.aR,A.b5("Date of Birth: "+s,i,i,i,i,k,i,i),B.aR,A.b5("Email: "+h.c,i,i,i,i,k,i,i)],n),B.af,B.q,B.n)
@@ -45437,7 +45437,7 @@ n=J.a2(o)
 m=A.cq(n.h(o,"adminJwtToken"))
 l=t.N
 s=4
-return A.S(A.aqM(A.hy("http://3.7.231.166:1337/content-manager/collection-types/api::hostel.hostel?page=1&pageSize=2&sort=Hostel_name:ASC&filters[created_by_id][$eq]="+A.h(A.fA(n.h(o,"userLoginId"))),0,null),A.Z(["Authorization","Bearer "+A.h(m)],l,l)),$async$l0)
+return A.S(A.aqM(A.hy("https://admin.admondtamang.com.np/content-manager/collection-types/api::hostel.hostel?page=1&pageSize=2&sort=Hostel_name:ASC&filters[created_by_id][$eq]="+A.h(A.fA(n.h(o,"userLoginId"))),0,null),A.Z(["Authorization","Bearer "+A.h(m)],l,l)),$async$l0)
 case 4:k=b
 j=B.az.p7(0,A.YQ(J.aJ(A.YB(k.e).c.a,"charset")).de(0,k.w),null)
 p.ro("Int","currentHostelID",J.aJ(J.aJ(J.aJ(j,"results"),0),"id"))
@@ -45635,7 +45635,7 @@ if(s!=null)return A.axt(B.Mq,new A.a1e(b),s.a.length)
 else return B.Rf},
 $S:226}
 A.a1e.prototype={
-$2(a,b){var s,r,q=null,p=A.awb(B.du),o=A.bY(12),n=this.a.b.a,m=t.p,l=A.lu(B.yM,A.a([A.Ig(B.z9,A.at_(new A.l8("http://3.7.231.166:1337"+n[b].b.at.a.b.z),q)),new A.bI(B.CF,A.awt(B.IP,q,A.a6I(q,q,B.DL,q,new A.a1c(),q,q,q,q),18),q)],m),B.P,B.bO)
+$2(a,b){var s,r,q=null,p=A.awb(B.du),o=A.bY(12),n=this.a.b.a,m=t.p,l=A.lu(B.yM,A.a([A.Ig(B.z9,A.at_(new A.l8("https://admin.admondtamang.com.np"+n[b].b.at.a.b.z),q)),new A.bI(B.CF,A.awt(B.IP,q,A.a6I(q,q,B.DL,q,new A.a1c(),q,q,q,q),18),q)],m),B.P,B.bO)
 n=A.b5(n[b].b.a,q,q,q,q,$.h1(),q,q)
 s=A.b5("Mid Baneshwor, Kathmandu",q,q,q,q,$.aFw(),q,q)
 r=$.aFx()
