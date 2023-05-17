@@ -9367,7 +9367,7 @@ var $async$YU=A.N(function(d,e){if(d===1)return A.O(e,r)
 while(true)switch(s){case 0:s=3
 return A.S(A.nj(),$async$YU)
 case 3:k=e
-j=A.hy("http://3.7.231.166:1337/admin/login",0,null)
+j=A.hy("https://admin.admondtamang.com.np/admin/login",0,null)
 i=t.N
 h=A.Z(["Content-Type","application/json"],i,i)
 s=4
@@ -45382,7 +45382,7 @@ r=this.a
 l=A.bO(q,A.c5(A.a([B.ew,i,B.ew,h,B.aR,j,B.ew,s,B.aR,A.cm(A.a([A.Gq("District: "+A.h(r.r)),B.da,A.Gq("Province: "+A.h(r.w))],o),B.v,B.q,B.n)],o),B.af,B.q,B.n),B.m,q,q,new A.bt(B.av,q,q,k,q,q,B.C),q,q,B.lV,B.ie,q,q,l.a.a*0.6)
 m=A.bg(a,q,m).w
 k=A.bY(8)
-return A.hY(new A.li(p,B.d9,q),q,new A.bI(B.cP,A.c5(A.a([n,B.xM,A.cm(A.a([l,A.bO(q,A.c5(A.a([A.b5("Featured Image",q,q,q,q,$.h1(),q,q),B.aR,A.Ig(A.bY(8),A.at_(new A.l8("http://3.7.231.166:1337"+A.h(this.a.x)),q))],o),B.af,B.q,B.n),B.m,q,q,new A.bt(B.av,q,q,k,q,q,B.C),q,q,B.lV,B.ie,q,q,m.a.a*0.35)],o),B.af,B.q,B.n)],o),B.af,B.q,B.n),q),q)}}
+return A.hY(new A.li(p,B.d9,q),q,new A.bI(B.cP,A.c5(A.a([n,B.xM,A.cm(A.a([l,A.bO(q,A.c5(A.a([A.b5("Featured Image",q,q,q,q,$.h1(),q,q),B.aR,A.Ig(A.bY(8),A.at_(new A.l8("https://admin.admondtamang.com.np"+A.h(this.a.x)),q))],o),B.af,B.q,B.n),B.m,q,q,new A.bt(B.av,q,q,k,q,q,B.C),q,q,B.lV,B.ie,q,q,m.a.a*0.35)],o),B.af,B.q,B.n)],o),B.af,B.q,B.n),q),q)}}
 A.am1.prototype={
 $0(){A.ew(this.a,!1).ut(null)},
 $S:0}
