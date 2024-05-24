@@ -1,6 +1,6 @@
 {
-    "name": "dashboard",
-    "short_name": "dashboard",
+    "name": "motar",
+    "short_name": "motar",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
