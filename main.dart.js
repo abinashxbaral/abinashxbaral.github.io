@@ -9431,7 +9431,7 @@ aqn:function aqn(a){this.a=a},
 aqm:function aqm(){},
 aqo:function aqo(){},
 aQG(a){var s=null,r=A.bg(a,s,t.w).w,q=A.bY(6),p=t.p
-r=A.dP(new A.Bo(A.a([A.aql("Stays"),A.aql("Featured"),A.aql("Blog"),A.aql("Contact")],p),B.ch,B.ah,new A.bt(B.ch,s,s,q,s,s,B.C),B.xU,B.j,B.l,s),36,r.a.a*0.4)
+r=A.dP(new A.Bo(A.a([A.aql("Stayss"),A.aql("Featured"),A.aql("Blog"),A.aql("Contact")],p),B.ch,B.ah,new A.bt(B.ch,s,s,q,s,s,B.C),B.xU,B.j,B.l,s),36,r.a.a*0.4)
 return A.o7(A.a([A.atJ(new A.aqH(),A.vY(),t.y),B.da],p),B.j,!0,0,B.tc,120,r)},
 aqH:function aqH(){},
 aqE:function aqE(){},
